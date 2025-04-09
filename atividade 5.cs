@@ -13,14 +13,14 @@ namespace Verifica_numero
             int nota1 = 8;
             int nota2 = 8;
             int nota3 = 6;
-            int media = (nota1 + nota2 + nota3)/4;
+            int media = (nota1 + nota2 + nota3)/3;
             if (media >7)
             {
-                Console.WriteLine("Os numeros são iguais");
+                Console.WriteLine("Você tirou uma nota maior que a média");
             }
             else
             {
-                Console.WriteLine("Os numeros não são iguais");
+                Console.WriteLine("Você não tirou uma nota maior que a média");
             }
             Console.WriteLine("Aperte enter para finalizar");
             Console.Read();
