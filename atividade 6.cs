@@ -24,6 +24,7 @@ namespace Verifica_numero
             }
             Console.WriteLine("Aperte enter para finalizar");
             Console.Read();
+
         }
     }
 }
