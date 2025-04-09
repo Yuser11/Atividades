@@ -10,21 +10,20 @@ namespace Verifica_numero
     {
         static void Main(string[] args)
         {
-            int nota1 = 8;
-            int nota2 = 8;
-            int nota3 = 6;
-            int media = (nota1 + nota2 + nota3)/3;
-            if (media >7)
+            Console.WriteLine("Quantos produtos foram comprados?");
+            int quant = Convert.ToInt32(Console.ReadLine());
+            if ( quant > 100 ) 
             {
-                Console.WriteLine("Você tirou uma nota maior que a média");
-            }
-            else
+                Console.WriteLine("Qual o preço?");
+            Double preco = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("O novo preço com desconto de 12,5% é " + (preco * 0.875));
+            }else
             {
-                Console.WriteLine("Você não tirou uma nota maior que a média");
-            }
+                Console.WriteLine("Não tem desconto");
+            }           
+          
             Console.WriteLine("Aperte enter para finalizar");
             Console.Read();
-
         }
     }
 }
