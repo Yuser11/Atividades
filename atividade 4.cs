@@ -10,20 +10,21 @@ namespace Verifica_numero
     {
         static void Main(string[] args)
         {
-            int nota1 = 8;
-            int nota2 = 8;
-            int nota3 = 6;
-            int media = (nota1 + nota2 + nota3)/4;
-            if (media >7)
+            Console.WriteLine("Escreva um numero");
+            Double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("escreva outro");
+            Double num2 = Convert.ToDouble(Console.ReadLine());
+            if (num1 == num2)
             {
                 Console.WriteLine("Os numeros são iguais");
             }
             else
             {
-                Console.WriteLine("Os numeros não são iguais");
+                Console.WriteLine("Os numeros são diferente");
             }
             Console.WriteLine("Aperte enter para finalizar");
             Console.Read();
+
         }
     }
 }

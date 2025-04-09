@@ -13,8 +13,8 @@ namespace Verifica_numero
             int nota1 = 8;
             int nota2 = 8;
             int nota3 = 6;
-            int media = (nota1 + nota2 + nota3)/3;
-            if (media >7)
+            int media = (nota1 + nota2 + nota3) / 3;
+            if (media > 7)
             {
                 Console.WriteLine("Você tirou uma nota maior que a média");
             }
